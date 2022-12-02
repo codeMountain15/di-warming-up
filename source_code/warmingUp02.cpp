@@ -14,7 +14,7 @@ protected:
 
 public:
     Human(string in1 = "", string in2 = "", string in3 = "") : name(in1), id(in2), slogan(in3) {};
-    virtual void show() {} //pure virtual
+    virtual void show() {} 
 };
 
  
@@ -36,9 +36,25 @@ public:
  
  // put here your subclass //
  
+
+
+
+
+
+
+
  *****************************
  */
 
+
+class StudentCool : public Human {
+    public:
+    StudentCool(string in1, string in2, string in3) : Human(in1,in2,in3){};
+
+    void show() {
+        std::cout << "First X-apostaseos";
+    }
+};
 
 int main() {
 
@@ -61,6 +77,12 @@ int main() {
      *****************************
      */
 
+
+
+
+
+    StudentCool Iason19("Iason","1115202100097","LGBT RIGHTS");
+    team.push_back(&Iason19);
     // area for object show up
     // objects on the screen
     for (auto i = team.rbegin(); i != team.rend(); i++)
