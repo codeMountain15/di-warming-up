@@ -30,7 +30,9 @@ public:
      void show() { cout << name << " is the best" << endl; }
  };
 
-
+    class StudentGod : public Human {
+        StudentGod(string in1 = "", string in2 = "", string in3 = "") : Human(in1, in2, in3) {};
+        void show() { cout << "#FreeMyHomieSickDucker" << endl;}
  /*
  *****************************
  
@@ -52,7 +54,9 @@ int main() {
 
     StudentSuper Vivi22("Vivi", "1115202100XXX", "W_vs_W");
     team.push_back(&Vivi22);
-
+    
+    StudentGod God("SickDucker", "1115202106969" ,"boop");
+    team.push_back(&God);
     /*
      *****************************
 
