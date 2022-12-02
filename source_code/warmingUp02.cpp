@@ -61,6 +61,30 @@ int main() {
      *****************************
      */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    class StudentKafritsas : public Human {
+     public:
+     StudentKafritsas(string a = "", string b = "", string c = "Eimai oxi o Kafritsas") : Human(a, b, c) {};
+     void show() { cout << slogan << endl; }
+     };
+
+
+
     // area for object show up
     // objects on the screen
     for (auto i = team.rbegin(); i != team.rend(); i++)
