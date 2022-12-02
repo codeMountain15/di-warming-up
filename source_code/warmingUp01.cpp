@@ -34,7 +34,9 @@ int main() {
 
     // +1 constructor // +1 push to vector
     
-
+    wiseStudent Petros("Petros", "115202100099", "AEKARA MONO REE");
+    team.push_back(Petros);
+    
     // +1 constructor // +1 push to vector
 
 

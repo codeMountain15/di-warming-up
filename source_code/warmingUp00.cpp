@@ -39,8 +39,9 @@ int main() {
     // +1 push to vector
     team.push_back("Vivi");
   
-    team.push_back("Alex");
-    team.push_back("Petros");
+    team.push_back("Alex")
+
+ team.push_back("Petros");
     
     // +1 push to vector
 
