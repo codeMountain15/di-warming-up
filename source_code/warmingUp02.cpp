@@ -36,7 +36,7 @@ public:
  
  class StudentBurnOut : public Human {
  public:
-     StudentSuper(string a = "", string b = "", string c = "") : Human(a, b, c) {};
+     StudentBurnOut(string a = "", string b = "", string c = "") : Human(a, b, c) {};
      void show() { cout << name << " is burned out.\n" << endl; }
  };
  
