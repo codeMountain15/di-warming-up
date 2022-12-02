@@ -55,7 +55,11 @@ public:
     void show() { cout << "gp" << rand()%100 << endl; }
 };
 
-
+ class DIT_student : public Human {
+ public:
+     DIT_student(string a = "", string b = "", string c = "") : Human(a, b, c) {};
+     void show() { cout << c << " " <<  name << " is the best" << endl; }
+ };
 
 int main() {
 
@@ -86,9 +90,8 @@ int main() {
     StudentSuper Themos("Themos", "1115202100227", "I Represent Samila");
     team.push_back(&Themos);
 
-
-
-    
+    DIT_student g7("Giovanni_giorgio", "653735357753653", "Helloooo"); team.push_back(&g7);
+        
     // area for object show up
     // objects on the screen
     for (auto i = team.rbegin(); i != team.rend(); i++)
