@@ -32,12 +32,14 @@ public:
 
 
  /*
- *****************************
+ *****************************/
  
- // put here your subclass //
+ class StudentBurnOut : public Human {
+ public:
+     StudentSuper(string a = "", string b = "", string c = "") : Human(a, b, c) {};
+     void show() { cout << name << " is burned out.\n" << endl; }
+ };
  
- *****************************
- */
 
 
 int main() {
@@ -53,13 +55,8 @@ int main() {
     StudentSuper Vivi22("Vivi", "1115202100XXX", "W_vs_W");
     team.push_back(&Vivi22);
 
-    /*
-     *****************************
-
-     // put here your code //
-
-     *****************************
-     */
+    StudentBurnOut Vaghelis("Vaghelis", "1115202000084", "geia sas");
+    team.push_back(&Vaghelis);
 
     // area for object show up
     // objects on the screen
