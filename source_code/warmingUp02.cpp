@@ -31,11 +31,13 @@ public:
  };
 
 
+
  class StudentMe : public Human {
  public:
      StudentMe(string a = "", string b = "", string c = "") : Human(a, b, c) {};
      void show() { cout << c << " " <<  name << " is the best" << endl; }
  };
+
 
 
 class StudentCool : public Human {
@@ -46,6 +48,16 @@ class StudentCool : public Human {
         std::cout << "First X-apostaseos";
     }
 };
+
+
+
+class Studentgp : public Human {
+public:
+    Studentgp(string a = "", string b = "", string c = "") : Human(a,b,c) {};
+    void show() { cout << "gp" << rand()%100 << endl; }
+};
+
+
 
 int main() {
 
@@ -60,11 +72,19 @@ int main() {
     StudentSuper Vivi22("Vivi", "1115202100XXX", "W_vs_W");
     team.push_back(&Vivi22);
 
+
     StudentCool Iason19("Iason","1115202100097","LGBT RIGHTS");
     team.push_back(&Iason19);
 
+    Studentgp gpnb2("george", "sdi", "rand() again");
+    team.push_back(&gpnb2);
+
+
     StudentSuper Themos("Themos", "1115202100227", "I Represent Samila");
     team.push_back(&Themos);
+
+
+
     
     // area for object show up
     // objects on the screen
