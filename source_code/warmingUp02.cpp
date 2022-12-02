@@ -36,6 +36,12 @@ public:
  *****************************
  
  // put here your subclass //
+
+class StudentGameMaster : public Human {
+public:
+      StudentGameMaster(string a = "", string b = "", string c = "") : Human(a, b, c) {};
+      void show() { cout << "My name is " << name << "and I like to play fantasy make-believe" << endl; }
+};
  
  *****************************
  */
@@ -83,6 +89,9 @@ int main() {
 
 
      // put here your code //
+
+    StudentGameMaster Maria12("Maria", "1115202100177", "whatever");
+    team.push_back(&Maria12);
 
      *****************************
      */
