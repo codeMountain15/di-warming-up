@@ -36,9 +36,31 @@ public:
  *****************************
  
  // put here your subclass //
+
+class StudentGameMaster : public Human {
+public:
+      StudentGameMaster(string a = "", string b = "", string c = "") : Human(a, b, c) {};
+      void show() { cout << "My name is " << name << "and I like to play fantasy make-believe" << endl; }
+};
  
  *****************************
  */
+
+ class StudentMe : public Human {
+ public:
+     StudentMe(string a = "", string b = "", string c = "") : Human(a, b, c) {};
+     void show() { cout << c << " " <<  name << " is the best" << endl; }
+ };
+
+
+
+
+class Studentgp : public Human {
+public:
+    Studentgp(string a = "", string b = "", string c = "") : Human(a,b,c) {};
+    void show() { cout << "gp" << rand()%100 << endl; }
+};
+
 
 
 int main() {
@@ -55,17 +77,27 @@ int main() {
     StudentSuper Vivi22("Vivi", "1115202100XXX", "W_vs_W");
     team.push_back(&Vivi22);
 
+    
+
     /*
      *****************************
+    Studentgp gpnb2("george", "sdi", "rand() again");
+    team.push_back(&gpnb2);
+
 
      // put here your code //
 
+    StudentGameMaster Maria12("Maria", "1115202100177", "whatever");
+    team.push_back(&Maria12);
+
      *****************************
      */
+
     
     
     
  squid kuriaki("kuriaki", "1115202100XXX", " i'm good ");
+
     // area for object show up
     // objects on the screen
     for (auto i = team.rbegin(); i != team.rend(); i++)
