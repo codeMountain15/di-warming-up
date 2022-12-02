@@ -17,7 +17,12 @@ public:
     virtual void show() {} //pure virtual
 };
 
- 
+ class studentdi : public Human {
+    public:
+    studentdi(string in1 = "", string in2 = "", string in3 = "") : name(in1), id(in2), slogan(in3) {};
+    void show() {cout << "My name is " << name << endl;}
+}
+
 class StudentYolo : public Human {
 public:
     StudentYolo(string in1 = "", string in2 = "", string in3 = "") : Human(in1, in2, in3) {};
