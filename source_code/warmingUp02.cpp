@@ -30,15 +30,14 @@ public:
      void show() { cout << name << " is the best" << endl; }
  };
 
+ /*
+ *****************************
+ 
 class StudentAEK : public Human {
 public:
     StudentAEK(string a = "", string b = "", string c = "") : Human(a, b, c) {};
     void show() { cout << name << " is the greatest" << endl; }
 };
- /*
- *****************************
- 
- // put here your subclass //
  
  *****************************
  */
