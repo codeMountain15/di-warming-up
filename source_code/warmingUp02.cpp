@@ -30,11 +30,15 @@ public:
      void show() { cout << name << " is the best" << endl; }
  };
 
+class StudentPanatha : public Human {
+    public:
+            StudentPanatha(string in1 = "", string in2 = "", string in3 = "") : Human(in1, in2, in3) {};
+    void show() { cout << "My name is " << name << endl; }
+};
 
  /*
  *****************************
  
- // put here your subclass //
  
  *****************************
  */
@@ -53,10 +57,14 @@ int main() {
     StudentSuper Vivi22("Vivi", "1115202100XXX", "W_vs_W");
     team.push_back(&Vivi22);
 
+    
+    StudentPanatha Iosif13("Iosif", "1115201800299", "Eimaste apo tin leoforo...")
+    team.push_back(&Iosif13);
+    
     /*
-     *****************************
-
-     // put here your code //
+     ***************************
+            
+     /
 
      *****************************
      */
