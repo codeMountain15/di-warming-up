@@ -14,7 +14,7 @@ int main() {
     team.push_back("Takis");
     team.push_back("Vivi");
 
-    team.push_back("Spiros");
+    // +1 push to vector
     
     // +1 push to vector
   
@@ -28,29 +28,38 @@ int main() {
   
     team.push_back("Efthymis");
     
-    // +1 push to vector
+    team.push_back("oxiKafritsas");
   
+ isimrpickle
     // +1 push to vector
     isimrpickle
     
     // +1 push to vector
   
-=======
+
+
+    
+ main
     
     team.push_back("Vaghelis");  
     
  main
     // +1 push to vector
+    isimrpickle
     team.push_back("isi");
     // +1 push to vector
     team.push_back("Vivi");
+    
+    
+    team.push_back("Harrys");
+ main
   
     team.push_back("Alex");
     
-    // +1 push to vector
+    team.push_back("Themos")
     
     
-    
+    team.push_back("Iosif");
     
     team.push_back("Iason"); 
     // show on the screen
