@@ -30,7 +30,11 @@ public:
      void show() { cout << name << " is the best" << endl; }
  };
 
-
+class StudentAEK : public Human {
+public:
+    StudentAEK(string a = "", string b = "", string c = "") : Human(a, b, c) {};
+    void show() { cout << name << " is the greatest" << endl; }
+};
  /*
  *****************************
  
@@ -56,7 +60,8 @@ int main() {
     /*
      *****************************
 
-     // put here your code //
+     StudentAEK Petros("Petros", "1115202100099", "AEKARA MONO RE");
+     team.push_back(&Petros);
 
      *****************************
      */
