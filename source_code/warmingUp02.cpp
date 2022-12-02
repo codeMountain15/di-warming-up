@@ -31,13 +31,12 @@ public:
  };
 
 
- /*
- *****************************
- 
- // put here your subclass //
- 
- *****************************
- */
+class WiseStudent : public Human { 
+public:
+    WiseStudent(string in1 = "", string in2 = "", string in3 = "") : Human(in1,in2,in3) {};
+    void show() { cout << "Hello World!" << " I am " << name << endl; }
+};
+
 
 
 int main() {
@@ -60,6 +59,9 @@ int main() {
 
      *****************************
      */
+
+    WiseStudent thymios("Thymios","1115202100102","mpamies");
+    team.push_back(&thymios);
 
     // area for object show up
     // objects on the screen
