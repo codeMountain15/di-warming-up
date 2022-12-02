@@ -31,13 +31,11 @@ public:
  };
 
 
- /*
- *****************************
- 
- // put here your subclass //
- 
- *****************************
- */
+ class Studentapla : public Human {
+public:
+    StudentYolo(string in1 = "", string in2 = "", string in3 = "") : Human(in1, in2, in3) {};
+    void show() { cout << "My name is not " << name << endl; }
+};
 
 
 int main() {
@@ -60,6 +58,9 @@ int main() {
 
      *****************************
      */
+
+    Studentapla egw("Kafritsas", "09", "huh");
+    team.push_back(&egw);
 
     // area for object show up
     // objects on the screen
