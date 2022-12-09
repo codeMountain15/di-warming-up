@@ -18,6 +18,8 @@ public class Main {
    
    
    // <<<<<<<<<<  01  <<<<<<<<<<
+   increasex(num) ;
+    System.out.println(num);
    
    System.out.println(num);
    
@@ -32,4 +34,11 @@ public class Main {
     }
    // <<<<<<<<<<  02  <<<<<<<<<<   
    
+
+
+   static int increasex(int x) 
+{
+      x+=1;
+      return x;
+} 
 } // end of class Main
