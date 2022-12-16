@@ -40,8 +40,8 @@ class  TreeProject{
     XmasTeam.add(new Elf("Doni"));
     XmasTeam.add(new Elf("Dino"));
     
-    // XmasTeam.add(new Elf("Unreal Kafritsas"));
-
+    // <- put Di Elf #01
+    
     // <- put Di Elf #02
     
     // <- put Di Elf #03
@@ -64,12 +64,11 @@ class  TreeProject{
     
     // <- put Di Elf #12
     
-    XmasTeam.add(new Elf("Pilotos"));// <- put Di Elf #13
+    // <- put Di Elf #13
     
     // <- put Di Elf #14
     
     // <- put Di Elf #15
-    XmasTeam.add(new Elf("GeorgeRG"));
     
     numberOfElves = XmasTeam.size();
     
