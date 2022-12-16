@@ -64,6 +64,11 @@ class Main{
 
 // >>>>>>>>>>>>> 08 >>>>>>>>>>>>>        
         
+        Xmas Objgp = new Xmas(){  
+            void speak(){System.out.println("hot tea");}  
+        };  
+        Objgp.speak(); 
+      
 // <<<<<<<<<<<<< 08 <<<<<<<<<<<<<
       
 
