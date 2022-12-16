@@ -51,7 +51,11 @@ class Main{
 // <<<<<<<<<<<<< 06 <<<<<<<<<<<<<  
       
       
-// >>>>>>>>>>>>> 07 >>>>>>>>>>>>>        
+// >>>>>>>>>>>>> 07 >>>>>>>>>>>>> 
+       Xmas Obj07 = new Xmas(){  
+            void speak(){System.out.println("ena freddo espresso sketo");}  
+        };  
+        Obj07.speak();  
         
 // <<<<<<<<<<<<< 07 <<<<<<<<<<<<<       
       
