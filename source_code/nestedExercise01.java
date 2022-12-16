@@ -27,7 +27,10 @@ class Main{
       
 
 // >>>>>>>>>>>>> 02 >>>>>>>>>>>>>        
-        
+        Xmas Obj02 = new Xmas(){  
+            void speak(){System.out.println("Gyros xoirinos forever!!! ");}  
+        };  
+        Obj02.speak();  
 // <<<<<<<<<<<<< 02 <<<<<<<<<<<<<
       
 
