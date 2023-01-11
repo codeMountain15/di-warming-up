@@ -16,7 +16,7 @@ class Pontikaras():
         self._weight = 2    # kilos
 
 # create objects
-obj00 = Pithari(50,86, 12)
+obj00 = Pithari(50, 86, 12)
 
 # create a method
 def eat_from(self, Pith):
